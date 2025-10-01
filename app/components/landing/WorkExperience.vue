@@ -26,7 +26,7 @@ const title = computed(() => translateField(props.page, 'title') || translateFie
       description: 'mt-2'
     }"
   >
-    <template #links>
+    <template #title>
       <div class="mb-6 w-full">
         <UProgress
           v-model="current"
@@ -39,6 +39,9 @@ const title = computed(() => translateField(props.page, 'title') || translateFie
           <span>{{ minLabel }}</span>
           <span>{{ maxLabel }}</span>
         </div>
+      </div>
+      <div class="mb-2">
+        {{ title }}
       </div>
     </template>
     <template #description>

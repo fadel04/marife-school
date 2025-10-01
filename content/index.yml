@@ -25,10 +25,10 @@ hero:
 about:
   title: "About"
   description: |
-    The Marifet Madrasa was established more than 50 years ago in the village of Rayan in Mauritania. As is customary in the country, the course first taught reading and writing, then memorization, followed by sciences such as fiqh, hadith, and tafsir. Recently, as the villagers began to commute to the capital, Nouakchott, the Quran course was relocated there. The students, who were taking classes in a temporary location, were not only not their own space but also not a decent environment. They were forced to leave their current location. With your help, we have initiated a project to build a madrasa for these students.
+    The Marifet Madrasa was established more than 50 years ago in the village of Rayan in Mauritania. As is customary in the country, the course first taught reading and writing, then memorization, followed by subjects such as fiqh, hadith, and tafsir. Recently, as the villagers began to commute to the capital, Nouakchott, the Quran course was relocated there. The students, who were taking classes in a temporary location, were not only not their own space but also not a decent environment. They were forced to leave their current location. With your help, we have initiated a project to build a madrasa for these students.
 
     The course has a total of 60 students, 30 girls and 30 boys, between the ages of 5 and 22.
-    A female teacher is assigned to teach letters and reading and writing, and two male teachers are assigned to teach memorization and other sciences.
+    A female teacher is assigned to teach letters and reading and writing, and two male teachers are assigned to teach memorization and other subjects.
     As is customary in the madrasa, students read books authorized by their teachers. At the end of these training sessions, the authorization is granted.
     In addition to these three instructors, there is a responsible person who handles the administrative, financial, and other needs of the course.
 
@@ -67,18 +67,20 @@ experience:
         Toplanan bağışlar peyderpey çeşitli vasıtalarla Moritanya’ya ulaştırılmaktadır.
         Projeyle ilgili daha fazla bilgi almak veya sorularınız için ilgili kişilerle irtibata geçebilirsiniz.
   items:
-    - date: 2025-09-15
-      position: "$150"
-    - date: 2025-09-10
-      position: "$200"
+    - date: 2025-09-30
+      position: "$50"
+    - date: 2025-09-17
+      position: "$240"
     - date: 2025-09-05
-      position: "$100"
-    - date: 2025-09-01
-      position: "$250"
-    - date: 2025-08-28
-      position: "$300"
-    - date: 2025-08-20
-      position: "$180"
+      position: "$30"
+    - date: 2025-09-05
+      position: "$25"
+    - date: 2025-09-05
+      position: "$6"
+    - date: 2025-09-02
+      position: "$6"
+    - date: 2025-09-02
+      position: "$170"
 
 stage:
   title: "Project Stages"
