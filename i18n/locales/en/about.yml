@@ -1,0 +1,12 @@
+title: "About Us"
+description: "Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences."
+content: |
+  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+
+  ### My Design Philosophy
+  My design philosophy is rooted in **empathy** and **problem-solving**...
+images:
+  - src: "https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587"
+    alt: "My coffee workspace"
+  - src: "https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587"
+    alt: "My trip to Tokyo"

@@ -1,0 +1,150 @@
+hero:
+  title: "We are building Marife Madrasa"
+  description: "We are waiting for your help to build our madrasa."
+  translations:
+    ar:
+      title: "نحن نبني مدرسة المعرفة"
+      description: "ساهمو معنا لبناء مدرسة المعرفة"
+    tr:
+      title: "Marife Medresesi’ni inşaa ediyoruz"
+      description: "Medresemizi inşaa etmemiz için yardımlarınızı bekliyoruz."
+  images:
+    - src: /hero/random-1.jpeg
+      alt: Random Image 1
+    - src: /hero/random-2.jpeg
+      alt: Random Image 2
+    - src: /hero/random-3.jpeg
+      alt: Random Image 3
+    - src: /hero/random-4.jpeg
+      alt: Random Image 4
+    - src: /hero/random-5.jpeg
+      alt: Random Image 5
+    - src: /hero/random-6.jpeg
+      alt: Random Image 6
+
+about:
+  title: "About"
+  description: |
+    The Marifet Madrasa was established more than 50 years ago in the village of Rayan in Mauritania. As is customary in the country, the course first taught reading and writing, then memorization, followed by sciences such as fiqh, hadith, and tafsir. Recently, as the villagers began to commute to the capital, Nouakchott, the Quran course was relocated there. The students, who were taking classes in a temporary location, were not only not their own space but also not a decent environment. They were forced to leave their current location. With your help, we have initiated a project to build a madrasa for these students.
+
+    The course has a total of 60 students, 30 girls and 30 boys, between the ages of 5 and 22.
+    A female teacher is assigned to teach letters and reading and writing, and two male teachers are assigned to teach memorization and other sciences.
+    As is customary in the madrasa, students read books authorized by their teachers. At the end of these training sessions, the authorization is granted.
+    In addition to these three instructors, there is a responsible person who handles the administrative, financial, and other needs of the course.
+
+    These madrasas are one of Mauritania's long-standing traditions. While the culture of attending school is still developing, almost all children are sent to them.
+    For this reason, over 90% of the country's population are hafiz (reciter of the Quran). We are striving to contribute to the training of these hafiz.
+
+  translations:
+    ar:
+      title: "عن المشروع"
+      description: |
+        .تأسست مدرسة المعرفة منذ أكثر من 50 عامًا في قرية الريان في موريتانيا كما هو معتاد في البلاد، كان يتم تدريس القراءة والكتابة أولاً، ثم الحفظ، تليها علوم مثل الفقه، الحديث، والتفسير مؤخرًا، مع بدء سكان القرية في التنقل إلى العاصمة نواكشوط، تم نقل دورة القرآن إلى هناك كان الطلاب الذين كانوا يتلقون الدروس في موقع مؤقت لا يملكونه ولا يوفر بيئة لائقة اضطروا إلى مغادرة موقعهم الحالي. بمساعدتكم، بدأنا مشروعًا لبناء مدرسة لهؤلاء الطلاب تحتوي الدورة على ما مجموعه 60 طالبًا، 30 فتاة و30 صبيًا، تتراوح أعمارهم بين 5 و22 عامًا تم تعيين معلمة لتعليم الحروف والقراءة والكتابة، ومعلمين اثنين لتعليم الحفظ والعلوم الأخرى كما هو معتاد في المدرسة، يقرأ الطلاب الكتب التي يأذن بها معلموهم. في نهاية هذه التدريبات، يتم منح الإذن. .بالإضافة إلى هؤلاء المعلمين الثلاثة، هناك شخص مسؤول يتولى الاحتياجات الإدارية والمالية وغيرها من الدورة هذه المدارس هي واحدة من التقاليد القديمة في موريتانيا بينما لا تزال ثقافة الذهاب إلى المدرسة تتطور، يتم إرسال جميع الأطفال تقريبًا إليها لهذا السبب، أكثر من 90٪ من سكان البلاد هم حفظة للقرآن نحن نسعى للمساهمة في تدريب هؤلاء الحفظة
+
+    tr:
+      title: "Hakkında"
+      description: |
+        Marifet medresesi Moritanya’nın Rayan köyünde 50 yılı aşkın süre önce kurulmuştur. Kursta, ülkede alışılmış olduğu üzere, önce okuma yazma sonrasında hafızlık, sonrasında fıkıh, hadis, tefsir gibi ilimler öğretilmiştir. Yakın zamanda köy halkının başkent Nuakşot’a gitmeye başlaması sebebiyle, Kuran kursu buraya taşınmıştır. Geçici bir yerde derslerini gören talebelerin bulundukları alan kendilerine ait olmadığı gibi nezih bir ortam da değildi. Bulundukları alandan çıkmak zorunda kaldılar. Biz de sizin yardımlarınızla bu ilim talebelerine bir medrese inşaa etme projesi başlattık. Kursta 5 ila 22 yaş arasında, 30 kız 30 erkek olmak üzere toplam 60 öğrenci bulunmaktadır. Harf talimi ve okuma yazma için bayan bir hoca, hafızlık ve diğer ilimlerin talimi için de iki bay hoca bulunmaktadır. Medrese usulü devam eden geleneklerinde talebeler, hocalarından icazetini aldığı kitapları okumaktadırlar. Bu talimlerinin sonunda icazet verilmektedir. Bu 3 hocamızın haricinde, kursun idari, mali vb. ihtiyaçlarıyla ilgilenen bir müşrif -sorumlu- bulunmaktadır.
+
+        Moritanya’nın kadim geleneklerinden biri bu medreselerdir. Okula gitme kültürü yeni şekillenmekle birlikte neredeyse bütün çocuklar medreseye gönderilirler. Bu sebeptendir ki ülke nüfusunun %90’ından fazlası hafızdır. Bizler de bu hafızların yetişmesine katkıda bulunmaya çalışmaktayız.
+
+experience:
+  title: "Donations recent"
+  description: |
+    The collected donations are gradually delivered to Mauritania through various means.
+    You can contact the relevant people for more information about the project or for your questions.
+
+  translations:
+    ar:
+      title: "التبرعات الأخيرة"
+      description: |
+        يتم تسليم التبرعات المجمعة تدريجياً إلى موريتانيا عبر وسائل مختلفة
+        يمكنك الاتصال بالأشخاص المعنيين للحصول على مزيد من المعلومات حول المشروع أو لطرح أسئلتك
+
+    tr:
+      title: "Son Bağışlar"
+      description: |
+        Toplanan bağışlar peyderpey çeşitli vasıtalarla Moritanya’ya ulaştırılmaktadır.
+        Projeyle ilgili daha fazla bilgi almak veya sorularınız için ilgili kişilerle irtibata geçebilirsiniz.
+  items:
+    - date: 2025-09-15
+      position: "$150"
+    - date: 2025-09-10
+      position: "$200"
+    - date: 2025-09-05
+      position: "$100"
+    - date: 2025-09-01
+      position: "$250"
+    - date: 2025-08-28
+      position: "$300"
+    - date: 2025-08-20
+      position: "$180"
+
+stage:
+  title: "Project Stages"
+  translations:
+    ar:
+      title: "مراحل المشروع"
+    tr:
+      title: "Proje Aşamaları"
+  stages:
+    - stage: "Land Purchase"
+      description: "A new neighborhood was chosen for the course. 2 parcels of the 4 parcels of land were purchased for the madrasah. This new location is a busy place and easy to reach. However, since it is far from the old places, a shuttle service will be arranged for the students."
+      translations:
+        ar:
+          stage: "شراء الأرض"
+          description: "تم اختيار حي جديد للدورة. تم شراء قطعتين من قطع الأرض الأربعة للمدرسة. هذا الموقع الجديد مكان مزدحم وسهل الوصول إليه. ومع ذلك، نظرًا لأنه بعيد عن الأماكن القديمة، سيتم ترتيب خدمة نقل مكوكية للطلاب."
+        tr:
+          stage: "Arsa Satın Alma"
+          description: "Kurs için yeni bir mahalle seçildi.4 parsellik arazinin 2 parseli medrese için alındı. Bu yeni mevki işlek bir yer olup ulaşımı kolaydır. Lakin eski yerlerinden uzak olması sebebiyle, talebelere servis ayarlanacaktır."
+
+    - stage: "Legal Documents"
+      description: "Construction permit was obtained for the land. A security guard was hired to guard the land and the materials brought."
+      translations:
+        ar:
+          stage: "الوثائق القانونية"
+          description: "تم الحصول على رخصة البناء للأرض. وتم تعيين حارس أمن لحراسة الأرض وجلب المواد."
+        tr:
+          stage: "Yasal Belgeler"
+          description: "Arsa için inşaat izni alındı. Araziyi ve getirilen malzemeleri koruması için bir güvenlik elemanı tutuldu."
+
+    - stage: "Foundation Stage"
+      description: "It will take approximately 1 week to lay the foundation of the madrasa."
+      translations:
+        ar:
+          stage: "مرحلة الأساسات"
+          description: "سيستغرق وضع أساس المدرسة حوالي أسبوع واحد."
+        tr:
+          stage: "Temel Aşaması"
+          description: "Medresenin temelinin atılması yaklaşık 1 hafta sürecek."
+
+    - stage: "Structure Stage"
+      description: "The construction of the building will take 1 month. Afterwards, 10 days will be waited for the roof to dry."
+      translations:
+        ar:
+          stage: "مرحلة الهيكل"
+          description: "سيستغرق تشييد المبنى شهرًا واحدًا. بعد ذلك، سيتم الانتظار لمدة 10 أيام حتى يجف السقف."
+        tr:
+          stage: "Yapı Aşaması"
+          description: "Binanın inşaası ise 1 ay sürecek. Sonrasında çatının kuruması için 10 gün beklenecek."
+
+    - stage: "Finishing Stage"
+      description: "Plumbing, painting, carpet and other needs will be met."
+      translations:
+        ar:
+          stage: "مرحلة التشطيبات"
+          description: "سيتم تلبية احتياجات السباكة والطلاء والسجاد وغيرها من الاحتياجات."
+        tr:
+          stage: "Bitirme Aşaması"
+          description: "Tesisat, boya, halı ve diğer ihtiyaçlar giderilecek."
+
+    - stage: "Equipment Stage"
+      description: "The official opening of the course will be held."
+      translations:
+        ar:
+          stage: "مرحلة التجهيزات"
+          description: "سيتم الافتتاح الرسمي للدورة."
+        tr:
+          stage: "Ekipman Aşaması"
+          description: "Kursun resmi açılışı yapılacak."
+
