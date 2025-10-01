@@ -6,15 +6,20 @@ const props = defineProps<{
 }>()
 
 const { translateField, locale } = useContentTranslation()
-const min = ref(11000)
-const max = ref(21000)
-const current = ref(11000)
+const min = ref(locale.value === 'tr' ? 457.371 : 11000)
+const max = ref(locale.value === 'tr' ? 873.163 : 21000)
+const current = ref(locale.value === 'tr' ? 457.371 : 11000)
 
-const minLabel = computed(() => `$${min.value.toLocaleString()}`)
-const maxLabel = computed(() => `$${max.value.toLocaleString()}`)
+const minLabel = computed(() =>
+  locale.value === 'tr' ? `₺${min.value.toLocaleString('tr-TR')}` : `$${min.value.toLocaleString()}`
+)
+
+const maxLabel = computed(() =>
+  locale.value === 'tr' ? `₺${max.value.toLocaleString('tr-TR')}` : `$${max.value.toLocaleString()}`
+)
 const isArabic = computed(() => locale.value === 'ar')
 
-const title = computed(() => translateField(props.page, 'title') || translateField(props.page.experience, 'title'))
+const title = computed(() => translateField(props.page.experience, 'title'))
 </script>
 
 <template>
@@ -64,7 +69,7 @@ const title = computed(() => translateField(props.page, 'title') || translateFie
             target="_blank"
           >
             <span class="text-sm">
-              {{ experience.position }}
+              {{ translateField(experience, 'position') }}
             </span>
           </ULink>
         </Motion>

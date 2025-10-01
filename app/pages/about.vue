@@ -30,7 +30,9 @@ useSeoMeta({
           playsinline
           class="rounded-lg shadow-lg max-w-3xl w-full"
         >
-          <source src="/videos/project.mov"/>
+          <source
+            src="/videos/project.mov"
+          >
         </video>
       </div>
     </UPageSection>
