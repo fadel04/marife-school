@@ -26,3 +26,4 @@ logs
 # VSC
 .history
 public/videos/project.mov
+public/videos/*.mov
