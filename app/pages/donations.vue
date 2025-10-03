@@ -29,7 +29,7 @@ useSeoMeta({
         {{ description }}
         <div class="mt-4 flex">
           <a
-            href="https://wa.me/905313492419"
+            href="https://wa.me/905511251896"
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center gap-2 text-green-600 hover:text-green-700"
