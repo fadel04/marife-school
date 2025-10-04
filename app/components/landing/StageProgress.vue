@@ -9,14 +9,19 @@ const props = defineProps<{
   showTitle?: boolean
 }>()
 
-const { translateField } = useContentTranslation()
+const { translateField, locale } = useContentTranslation()
 
-const min = ref(11000)
-const max = ref(21000)
-const current = ref(11000)
+const min = ref(locale.value === 'tr' ? 504590 : 12115)
+const max = ref(locale.value === 'tr' ? 900000 : 21000)
+const current = ref(locale.value === 'tr' ? 504590 : 12115)
 
-const minLabel = computed(() => `$${min.value.toLocaleString()}`)
-const maxLabel = computed(() => `$${max.value.toLocaleString()}`)
+const minLabel = computed(() =>
+  locale.value === 'tr' ? `₺${min.value.toLocaleString('tr-TR')}` : `$${min.value.toLocaleString()}`
+)
+
+const maxLabel = computed(() =>
+  locale.value === 'tr' ? `₺${max.value.toLocaleString('tr-TR')}` : `$${max.value.toLocaleString()}`
+)
 
 const stagesList = computed(() => {
   const stageField = translateField(props.page.stage, 'stages')
@@ -62,7 +67,7 @@ const stageTitle = computed(
         class="flex items-center gap-2 my-2"
       >
         <UCircularProgress
-          :value="index < completedStages ? 100 : 0 || index == 2 ? 20 : 0"
+          :value="index < completedStages ? 100 : 0 || index == 2 ? 40 : 0"
           :size="40"
           :stroke="3"
           :color="index < completedStages ? '#22c55e' : '#facc15'"
@@ -99,7 +104,7 @@ const stageTitle = computed(
         status
         color="neutral"
       />
-      <div class="flex justify-between mt-1 text-sm text-gray-600 w-full max-w-sm">
+      <div class="flex justify-between mt-1 text-sm text-gray-600 w-full">
         <span>{{ minLabel }}</span>
         <span>{{ maxLabel }}</span>
       </div>

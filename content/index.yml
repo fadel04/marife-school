@@ -68,6 +68,13 @@ experience:
         Projeyle ilgili daha fazla bilgi almak veya sorularınız için ilgili kişilerle irtibata geçebilirsiniz.
   items:
     - date: 2025-10-03
+      position: "$24"
+      translations:
+        ar:
+         position: "$24"
+        tr:
+         position: "₺1.000"
+    - date: 2025-10-03
       position: "$1.000"
       translations:
         ar:
@@ -109,13 +116,6 @@ experience:
          position: "$25"
         tr:
          position: "₺1.040"
-    - date: 2025-09-05
-      position: "$6"
-      translations:
-        ar:
-         position: "$6"
-        tr:
-         position: "₺250"
 
 stage:
   title: "Project Stages"

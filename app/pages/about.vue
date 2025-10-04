@@ -28,10 +28,12 @@ useSeoMeta({
           muted
           loop
           playsinline
+          controls
           class="rounded-lg shadow-lg max-w-3xl w-full"
         >
           <source
-            src="/videos/project.mov"
+            src="/videos/project-small.mp4"
+            type="video/mp4"
           >
         </video>
       </div>
