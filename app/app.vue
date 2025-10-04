@@ -3,6 +3,9 @@ const colorMode = useColorMode()
 
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
 
+const visitors = ref<number>(0)
+const isAdmin = ref(false)
+
 useHead({
   meta: [
     { charset: 'utf-8' },
@@ -24,20 +27,23 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
-// const [{ data: navigation }, { data: files }] = await Promise.all([
-//   useAsyncData('navigation', () => {
-//   }, {
-//     transform: data => data.flat()
-//   }),
-//   useLazyAsyncData('search', () => {
-//     return Promise.all([
-//       queryCollectionSearchSections('blog')
-//     ])
-//   }, {
-//     server: false,
-//     transform: data => data.flat()
-//   })
-// ])
+onMounted(() => {
+  const urlParams = new URLSearchParams(window.location.search)
+  isAdmin.value = urlParams.get('admin') === 'true'
+
+  const storageKey = 'marife_school_visitor_count'
+
+  let currentCount = parseInt(localStorage.getItem(storageKey) || '0')
+
+  if (!isAdmin.value) {
+    currentCount++
+    localStorage.setItem(storageKey, currentCount.toString())
+  }
+
+  visitors.value = currentCount
+
+  console.log(`Visitors: ${currentCount} (Admin: ${isAdmin.value})`)
+})
 </script>
 
 <template>
@@ -45,17 +51,13 @@ useSeoMeta({
     <NuxtLayout>
       <UMain class="relative">
         <NuxtPage />
+        <div
+          v-if="isAdmin"
+          class="fixed bottom-2 right-2 bg-black text-white p-2 rounded shadow-lg z-50"
+        >
+          👀 {{ visitors }}
+        </div>
       </UMain>
     </NuxtLayout>
-
-    <ClientOnly>
-      <!-- <LazyUContentSearch
-        :files="files"
-        :navigation="navigation"
-        shortcut="meta_k"
-        :links="navLinks"
-        :fuse="{ resultLimit: 42 }"
-      /> -->
-    </ClientOnly>
   </UApp>
 </template>
