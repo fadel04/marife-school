@@ -13,7 +13,7 @@ const localizedLinks = computed(() =>
     const currentLang = locale.value
 
     const localizedTo
-      = currentLang === 'ar'
+      = currentLang === 'tr'
         ? link.to
         : `/${currentLang}${link.to === '/' ? '' : link.to}`
 

@@ -6,9 +6,9 @@ const { locale: currentLocale, setLocale } = useI18n()
 const isShowDialog = ref(false)
 
 const availableLocales = [
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
   { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
-  { code: 'en', name: 'English', flag: '🇺🇸' }
+  { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'ar', name: 'العربية', flag: '🇸🇦' }
 ]
 const currentLocaleFlag = computed(() => {
   return availableLocales.find(l => l.code === currentLocale.value)?.flag || '🌐'

@@ -44,12 +44,12 @@ export default defineNuxtConfig({
       { code: 'ar', name: 'العربية', iso: 'ar-AR' },
       { code: 'tr', name: 'Türkçe', iso: 'tr-TR' }
     ],
-    defaultLocale: 'ar',
+    defaultLocale: 'tr',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
-      fallbackLocale: 'ar',
+      fallbackLocale: 'tr',
       alwaysRedirect: true,
       redirectOn: 'root'
     },
