@@ -67,7 +67,7 @@ const stageTitle = computed(
         class="flex items-center gap-2 my-2"
       >
         <UCircularProgress
-          :value="index < completedStages ? 100 : 0 || index == 2 ? 40 : 0"
+          :value="index < completedStages ? 100 : 0 || index == 2 ? 70 : 0"
           :size="40"
           :stroke="3"
           :color="index < completedStages ? '#22c55e' : '#facc15'"
@@ -76,7 +76,8 @@ const stageTitle = computed(
         <div class="max-w-md flex flex-col">
           <span
             :class="props.showDescription ? 'mt-6' : ''"
-            class="font-medium">
+            class="font-medium"
+          >
             {{ translateField(item, 'stage') }}</span>
           <span
             v-if="props.showDescription"
