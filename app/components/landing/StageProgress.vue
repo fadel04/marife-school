@@ -67,7 +67,7 @@ const stageTitle = computed(
         class="flex items-center gap-2 my-2"
       >
         <UCircularProgress
-          :value="index < completedStages ? 100 : 0 || index == 2 ? 70 : 0"
+          :value="index < completedStages ? 100 : 0 || index == 2 ? 85 : 0"
           :size="40"
           :stroke="3"
           :color="index < completedStages ? '#22c55e' : '#facc15'"

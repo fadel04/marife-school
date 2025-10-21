@@ -67,6 +67,27 @@ experience:
         Toplanan bağışlar peyderpey çeşitli vasıtalarla Moritanya’ya ulaştırılmaktadır.
         Projeyle ilgili daha fazla bilgi almak veya sorularınız için ilgili kişilerle irtibata geçebilirsiniz.
   items:
+    - date: 2025-10-21
+      position: "$24"
+      translations:
+        ar:
+         position: "$24"
+        tr:
+         position: "₺1.000"
+    - date: 2025-10-21
+      position: "$475"
+      translations:
+        ar:
+         position: "$475"
+        tr:
+         position: "₺20.000"
+    - date: 2025-10-21
+      position: "$120"
+      translations:
+        ar:
+         position: "$120"
+        tr:
+         position: "₺5.000"
     - date: 2025-10-03
       position: "$24"
       translations:
@@ -102,28 +123,20 @@ experience:
          position: "$240"
         tr:
          position: "₺10.000"
-    - date: 2025-09-05
-      position: "$30"
-      translations:
-        ar:
-         position: "$30"
-        tr:
-         position: "₺1.250"
-    - date: 2025-09-05
-      position: "$25"
-      translations:
-        ar:
-         position: "$25"
-        tr:
-         position: "₺1.040"
 
 stage:
   title: "Project Stages"
+  description: "updates - 21.10.2025"
+  archive: "Archive"
   translations:
     ar:
       title: "مراحل المشروع"
+      description: "التحديثات - 21.10.2025"
+      archive: "الأرشيف"
     tr:
       title: "Proje Aşamaları"
+      description: "güncellemeler - 21.10.2025"
+      archive: "Arşiv"
   stages:
     - stage: "Land Purchase"
       description: "A new neighborhood was chosen for the course. 2 parcels of the 4 parcels of land were purchased for the madrasah. This new location is a busy place and easy to reach. However, since it is far from the old places, a shuttle service will be arranged for the students."

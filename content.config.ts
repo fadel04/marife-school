@@ -31,6 +31,8 @@ export default defineContentConfig({
         }),
         stage: z.object({
           title: z.string().nonempty(),
+          description: z.string().nonempty(),
+          archive: z.string().nonempty(),
           stages: z.array(z.object({
             stage: z.string().nonempty(),
             description: z.string().nonempty()
