@@ -68,6 +68,13 @@ experience:
         Projeyle ilgili daha fazla bilgi almak veya sorularınız için ilgili kişilerle irtibata geçebilirsiniz.
   items:
     - date: 2025-10-23
+      position: "$5"
+      translations:
+        ar:
+         position: "$5"
+        tr:
+         position: "₺200"
+    - date: 2025-10-23
       position: "$1540"
       translations:
         ar:

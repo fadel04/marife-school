@@ -10,10 +10,9 @@ const props = defineProps<{
 }>()
 
 const { translateField, locale } = useContentTranslation()
-
-const min = ref(locale.value === 'tr' ? 809384 : 19278)
+const min = ref(locale.value === 'tr' ? 809584 : 19282)
 const max = ref(locale.value === 'tr' ? 1000000 : 24000)
-const current = ref(locale.value === 'tr' ? 809384 : 19278)
+const current = ref(locale.value === 'tr' ? 809584 : 19282)
 
 const minLabel = computed(() =>
   locale.value === 'tr' ? `₺${min.value.toLocaleString('tr-TR')}` : `$${min.value.toLocaleString()}`
