@@ -67,6 +67,27 @@ experience:
         Toplanan bağışlar peyderpey çeşitli vasıtalarla Moritanya’ya ulaştırılmaktadır.
         Projeyle ilgili daha fazla bilgi almak veya sorularınız için ilgili kişilerle irtibata geçebilirsiniz.
   items:
+    - date: 2025-10-23
+      position: "$1540"
+      translations:
+        ar:
+         position: "$1540"
+        tr:
+         position: "₺65.000"
+    - date: 2025-09-22
+      position: "$12"
+      translations:
+        ar:
+         position: "$12"
+        tr:
+         position: "₺500"
+    - date: 2025-09-22
+      position: "$5"
+      translations:
+        ar:
+         position: "$5"
+        tr:
+         position: "₺200"
     - date: 2025-10-21
       position: "$24"
       translations:
@@ -109,20 +130,6 @@ experience:
          position: "$60"
         tr:
          position: "₺2.500"
-    - date: 2025-09-30
-      position: "$50"
-      translations:
-        ar:
-         position: "$50"
-        tr:
-         position: "₺2000"
-    - date: 2025-09-17
-      position: "$240"
-      translations:
-        ar:
-         position: "$240"
-        tr:
-         position: "₺10.000"
 
 stage:
   title: "Project Stages"
