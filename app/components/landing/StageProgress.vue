@@ -28,7 +28,7 @@ const stagesList = computed(() => {
 })
 
 const totalStages = computed(() => stagesList.value.length)
-const completedStages = ref(2)
+const completedStages = ref(3)
 
 const progress = computed(() =>
   totalStages.value > 0 ? (completedStages.value / totalStages.value) * 100 : 0
@@ -66,7 +66,7 @@ const stageTitle = computed(
         class="flex items-center gap-2 my-2"
       >
         <UCircularProgress
-          :value="index < completedStages ? 100 : 0 || index == 2 ? 85 : 0"
+          :value="index < completedStages ? 100 : 0 || index == 3 ? 45 : 0"
           :size="40"
           :stroke="3"
           :color="index < completedStages ? '#22c55e' : '#facc15'"
