@@ -119,16 +119,16 @@ experience:
 
 stage:
   title: "Project Stages"
-  description: "updates - 10.11.2025"
+  description: "updates - 20.11.2025"
   archive: "Archive"
   translations:
     ar:
       title: "مراحل المشروع"
-      description: "التحديثات - 10.11.2025"
+      description: "التحديثات - 20.11.2025"
       archive: "الأرشيف"
     tr:
       title: "Proje Aşamaları"
-      description: "güncellemeler - 10.11.2025"
+      description: "güncellemeler - 20.11.2025"
       archive: "Arşiv"
   stages:
     - stage: "Land Purchase"
