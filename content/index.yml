@@ -67,76 +67,55 @@ experience:
         Toplanan bağışlar peyderpey çeşitli vasıtalarla Moritanya’ya ulaştırılmaktadır.
         Projeyle ilgili daha fazla bilgi almak veya sorularınız için ilgili kişilerle irtibata geçebilirsiniz.
   items:
-    - date: 2025-10-23
-      position: "$5"
-      translations:
+      - date: 2025-11-28
+        position: "$400"
+        translations:
         ar:
-         position: "$5"
+         position: "$400"
         tr:
-         position: "₺200"
-    - date: 2025-10-23
-      position: "$1540"
-      translations:
-        ar:
-         position: "$1540"
-        tr:
-         position: "₺65.000"
-    - date: 2025-09-22
-      position: "$12"
-      translations:
-        ar:
-         position: "$12"
-        tr:
-         position: "₺500"
-    - date: 2025-09-22
-      position: "$5"
-      translations:
-        ar:
-         position: "$5"
-        tr:
-         position: "₺200"
-    - date: 2025-10-21
-      position: "$24"
-      translations:
-        ar:
-         position: "$24"
-        tr:
-         position: "₺1.000"
-    - date: 2025-10-21
-      position: "$475"
-      translations:
+         position: "₺16.970"
+      - date: 2025-11-27
+        position: "$475"
+        translations:
         ar:
          position: "$475"
         tr:
          position: "₺20.000"
-    - date: 2025-10-21
-      position: "$120"
-      translations:
+      - date: 2025-11-25
+        position: "$120"
+        translations:
         ar:
          position: "$120"
         tr:
          position: "₺5.000"
-    - date: 2025-10-03
-      position: "$24"
-      translations:
+      - date: 2025-10-23
+        position: "$5"
+        translations:
         ar:
-         position: "$24"
+         position: "$5"
         tr:
-         position: "₺1.000"
-    - date: 2025-10-03
-      position: "$1.000"
-      translations:
+         position: "₺200"
+      - date: 2025-10-23
+        position: "$1540"
+        translations:
         ar:
-         position: "$1000"
+         position: "$1540"
         tr:
-         position: "41.290"
-    - date: 2025-10-02
-      position: "$60"
-      translations:
+         position: "₺65.000"
+      - date: 2025-09-22
+        position: "$12"
+        translations:
         ar:
-         position: "$60"
+         position: "$12"
         tr:
-         position: "₺2.500"
+         position: "₺500"
+      - date: 2025-09-22
+        position: "$5"
+        translations:
+        ar:
+         position: "$5"
+        tr:
+         position: "₺200"
 
 stage:
   title: "Project Stages"
